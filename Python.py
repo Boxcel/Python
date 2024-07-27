@@ -65,3 +65,14 @@ print(z)
 
 #User Input Section.
 print("")
+navn = input("What is your name?: ")
+alder = int(input("How old are you?: ")) #This is how to get a number user input to work.
+høyde = float(input("How tall are you?")) #This is how we get a decimal input.
+alder += 1
+print("Hello " +navn) #Whenever we accept user input it is of the str data type.
+print("You are "+str(alder) +" years old.") #This will allow for you to display the number
+print("You are "+str(høyde)+"ft tall")
+
+#Math.
+import math
+print("")
