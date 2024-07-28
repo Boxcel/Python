@@ -73,6 +73,22 @@ print("Hello " +navn) #Whenever we accept user input it is of the str data type.
 print("You are "+str(alder) +" years old.") #This will allow for you to display the number
 print("You are "+str(høyde)+"ft tall")
 
-#Math.
+#Math section.
 import math
+print("")
+pi = 3.14
+x = 10
+y = 50
+z = 100
+
+print(round(pi)) #This will round the selected value or variable.
+print(math.ceil(pi)) #This will round the selected value or variable up to the nearest whole int.
+print(math.floor(pi)) #This will round the selected value or varible down to the nearest whole int.
+print(abs(pi)) #This will give you the absolute value of selected value or variable.
+print(pow(pi,9)) #This will raise to the selected power.
+print(math.sqrt(pi)) #This will give you the square root.
+print(max(x,y,z)) #This will find the largest value of selected values.
+print(min(x,y,x)) #This will find the lowest value of selected values.
+
+#
 print("")
